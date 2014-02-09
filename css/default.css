@@ -1,0 +1,360 @@
+/* DONE: body */
+body { 
+	background: #505052 url(../../images/bkrnd_center.gif) center left fixed repeat-x; 
+	margin: 0px;
+	padding: 0px;
+	font-family: georgia, times, serif;
+	font-size: 12px;
+	color: #000;
+	text-align: center;
+/* NOTE: part 1 of 2 centering hack */
+	}
+	
+a {
+	text-decoration: underline;
+	color: #bb0000;
+	outline: none;
+	}
+a:visited {
+	color: #96181a;
+	}
+a:active {
+	color: #d40003;
+	}
+a:hover {
+	color: #bb0000;
+	text-decoration: underline;/*more sidebar stuff*/
+	}
+	
+h1, h2, h3, h4, h5, h6	{
+	color: #828487;
+	font-family: arial narrow, arial, helvetica, sans-serif;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	}
+
+h1 {
+	font-size: 24px;
+	text-align: center;
+}
+
+h1 a {
+	text-decoration: none;
+}
+
+h2 {
+	font-size: 24px;
+	}
+
+h2 a {
+	text-decoration: none;
+}
+
+h3 {
+	font-size: 18px;
+	color: #802c2d;
+	margin-bottom: 0px;
+	}
+h4 {
+	font-size: 16px;
+	
+	}
+
+/* DONE: container */
+#container {
+	background: none;
+	padding: 0px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto; 	/* opera does not like 'margin:20px auto' */
+	text-align:left; /* NOTE: part 2 of 2 centering hack */
+	width: 742px; /* ie5win fudge begins */
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	width: 740px;
+	}
+	
+html>body #container {
+	width: 740px; /* ie5win fudge ends */
+	}
+
+/* DONE: container2 */
+#container2 {
+	background: #d7dcde url(../../images/bkrnd_content.gif) top repeat-x;
+	padding: 0px;
+	margin: 0px;
+	border-top: 1px solid #bb0000;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+	border-left: 1px solid #000;
+	width: 740px; /* ie5win fudge begins */
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	width: 738px;
+	}
+	height="89" width="211"
+html>body #container2 {
+	width: 738px;
+	} 
+	
+/* DONE: head */	
+#head	{
+	/* display: block; */
+	background: #000;
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+	border-top: 1px solid #000;
+	/* border-bottom: 1px solid #bb0000; */
+	margin: 0px;
+	padding: 0px;
+ }
+    
+/* DONE: headint */	
+#headint	{
+	/* display: block; */
+	background: #000;
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+	border-top: 1px solid #000;
+	/* border-bottom: 1px solid #bb0000; */
+	margin: 0px;
+	padding: 0px;
+ }
+	
+/* DONE: content */
+#content {
+	padding-left: 15px;
+	margin-left: 219px;
+	margin-top: 0px;
+	margin-bottom: 12px;
+	width: 475px;
+	border-left: 2px dotted #828487;
+	/* border-right: 1px solid yellow; */
+	/* min-height: 250px; */
+}
+
+#content p {
+	font-family: georgia, times, serif;
+	font-size: 14px;
+	line-height: 19px;
+	margin: 0;
+	padding: 5px 0 5px 0;
+}
+
+#content dl dd {
+	font-family: georgia, times, serif;
+	font-size: 14px;
+	line-height: 19px;
+	/* margin: 0; */
+	padding: 5px 0 5px 0;
+	color: #757575;
+}
+
+#content dl dd em {
+	color: #000;
+}
+
+#content ul li {
+	font-family: georgia, times, serif;
+	font-size: 14px;
+	line-height: 19px;
+	/* margin: 0; */
+	padding: 0 0 0px 0;
+}
+
+/* DONE: sidebar left */
+#sidebar-a {
+	float: left;
+	width: 232px;
+	\width: 252px;
+	w\idth: 232px;
+	margin-top: 19px;
+	margin-right: 0px;
+	padding: 0px;
+	background: url(../images/uyt_navbackground.gif) no-repeat;
+}
+
+#sidebar-a dl {
+	font-size: 11px;
+	margin-left: 26px;
+}
+
+#sidebar-a dl dt {
+	color: #54683a;
+	padding-top: 0px;
+}
+
+/* DONE: topnav */	
+#topnavcontainer ul
+{
+	font-family: arial, helvetica, sans-serif;
+	font-size: 14px;
+	text-align: center;
+	padding-bottom: 8px;
+	padding-top: 8px;
+	padding-left: 0;
+	margin-top: 0;
+	/* cancels gap caused by top padding in Opera 7.54 */
+	margin-left: 0;
+	color: #000;
+	width: 100%;
+	/* fixes Firefox 0.9.3 */
+	margin-right: 0;
+	margin-bottom: 0;
+}
+
+#topnavcontainer ul li
+{
+display: inline;
+padding-left: 0px;
+padding-right: 0px;
+padding-bottom: 8px;
+/* matches link padding except for left and right */
+padding-top: 8px;
+}
+
+#topnavcontainer ul li a
+{
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 8px;
+padding-top: 8px;
+color: #666;
+text-decoration: none;
+}
+
+#topnavcontainer ul li a:hover
+{
+	/* background-color: #a63936; */
+	/* color: #f4d7b4; */
+	text-decoration: underline;
+}
+
+#topnavcontainer b {
+	color: #7d8082;
+}
+
+#topnavlist strong {
+	color: #7a807c;
+}
+
+/* DONE: nav*/
+#navcontainer ul {
+	margin: 0 0 10px 0;
+	padding: 0;
+	list-style-type: none;
+	/* letter-spacing: 2px; */
+	font-family: courier;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#navcontainer a {
+	display: block;
+	padding: 4px 6px;
+	width: 175px;
+	margin-left: 12px;
+	}
+
+#navcontainer a:link, #navlist a:visited {
+	color: #bb0000;
+	text-decoration: none;
+}
+
+#navcontainer a:hover {
+	background-color: #c7cbcd;
+	color: #bb0000;
+}
+
+#navlist .no {
+	color: #a5a7aa;
+	letter-spacing: -2px;
+	font-weight: normal;
+}
+
+
+
+	
+/* DONE: footer WIN IE BUG*/
+#footer {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 10px;
+	/* line-height: 12px; */
+	color: #000;
+	text-align: left;
+	clear: both;
+	padding: 8px;
+	margin-top: 0;
+	margin-left: 0px; 	/* http://css.maxdesign.com.au/listamatic/horizontal32.htm */
+	background-color: #757575;
+}
+
+#footerlist
+{
+	list-style: none;
+	padding: 0;
+	margin: 0 0 5px 0;
+}
+
+#footerlist li
+{
+	display: inline;
+	padding: 0;
+	margin: 0;
+}
+
+#footerlist li:before { content: "| "; }
+#footerlist li:first-child:before { content: ""; }
+
+/*IE workaround*/
+/*All IE browsers*/
+* html #footerlist li
+{
+	border-left: 1px solid #757575;
+	padding: 0 0.4em 0 0.4em;
+	margin: 0 0.4em 0 -0.4em;
+
+}
+
+/*Win IE browsers - hide from Mac IE\*/
+* html #navlist { height: 1%; }
+
+* html #navlist li
+{
+display: block;
+float: left;
+}
+
+/*End hide*/
+/*Mac IE 5*/
+* html #footerlist li:first-child { border-left: 0; }
+
+#footer a {
+	color: #d0d0d0;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	text-decoration: underline;
+}
+
+#footerlist .no {
+	color: #000;
+	/* letter-spacing: -2px; */
+	font-weight: normal;
+}
+
+#counter {
+	text-align:center;
+	font-size: 9px;
+	font-family: arial, helvetica, sans-serif;
+	margin: 5px 0 0 0;
+	color: #999;
+}
+
+.booktitle {
+	text-transform:uppercase;
+	
+}

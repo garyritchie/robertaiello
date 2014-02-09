@@ -1,6 +1,6 @@
 /* DONE: body */
 body { 
-	background: #505052 url(../../images/bkrnd_center.gif) center left fixed repeat-x; 
+	background: #505052 url(../images/bkrnd_center.gif) center left fixed repeat-x; 
 	margin: 0px;
 	padding: 0px;
 	font-family: georgia, times, serif;
@@ -82,7 +82,7 @@ html>body #container {
 
 /* DONE: container2 */
 #container2 {
-	background: #d7dcde url(../../images/bkrnd_content.gif) top repeat-x;
+	background: #d7dcde url(../images/bkrnd_content.gif) top repeat-x;
 	padding: 0px;
 	margin: 0px;
 	border-top: 1px solid #bb0000;
@@ -173,7 +173,9 @@ html>body #container2 {
 	margin-top: 19px;
 	margin-right: 0px;
 	padding: 0px;
+/*
 	background: url(../images/uyt_navbackground.gif) no-repeat;
+*/
 }
 
 #sidebar-a dl {

@@ -347,11 +347,7 @@ float: left;
 }
 
 #counter {
-	text-align:center;
-	font-size: 9px;
-	font-family: arial, helvetica, sans-serif;
-	margin: 5px 0 0 0;
-	color: #999;
+	display: none;
 }
 
 .booktitle {
